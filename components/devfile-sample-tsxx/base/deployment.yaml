@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-tsxx
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-user-workloads/rorai-tenant/devfile-sample/devfile-sample-tsxx@sha256:5855a923956774af14a909ebf96b73284eae8ddbaade4e0aa58a97d0749f6d8d
         name: my-nodejs
         ports:
         - containerPort: 3001
